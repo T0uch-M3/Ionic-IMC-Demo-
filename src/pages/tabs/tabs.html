@@ -1,0 +1,29 @@
+<!--
+  Generated template for the TabsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+      <ion-toolbar color="primary">
+          <ion-title>Indice de masse corporelle</ion-title>
+        </ion-toolbar>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    
+        <ion-input placeholder="Taille (cm)" [(ngModel)]="taille" clearInput></ion-input><br>
+        <ion-input placeholder="Poids (kg)" [(ngModel)]="poids"clearInput></ion-input><br>
+        <button ion-button full (click)="goToCalc()">Calculer</button>
+      
+  <!-- <ion-tabs>
+    <ion-tab [root]="tab1" tabTitle="Films" tabIcon="film"></ion-tab>
+    <ion-tab [root]="tab2" tabTitle="People" tabIcon="people"></ion-tab>
+    <ion-tab [root]="tab3" tabTitle="Planets" tabIcon="planet"></ion-tab>
+   </ion-tabs> -->
+</ion-content>
