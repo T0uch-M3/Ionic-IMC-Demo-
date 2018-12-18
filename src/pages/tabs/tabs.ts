@@ -14,9 +14,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'tabs.html',
 })
 export class TabsPage {
-  tab1: any = 'FilmsPage';
-  tab2: any = 'PeoplePage';
-  tab3: any = 'PlanetsPage';
   taille:String;
   poids:String;
 
